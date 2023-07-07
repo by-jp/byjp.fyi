@@ -13,14 +13,14 @@ jobs:
       with:
         path: ./site
         service: filebase
-        pinName: byjp.fyi
+        pinName: ${{ github.event.repository.name }}
         filebaseBucket: microsites
         filebaseKey: ${{ secrets.FILEBASE_KEY }}
         filebaseSecret: ${{ secrets.FILEBASE_SECRET }}
     - name: Update DNS record
       uses: XueMoMo/actions-coudflare-dns@v1.0.1
       with:
-        name: "byjp.fyi"
+        name: ${{ github.event.repository.name }}
         cid: ${{ steps.Publish.outputs.cid }}
         token: ${{ secrets.CLOUDFLARE_TOKEN }}
         zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
