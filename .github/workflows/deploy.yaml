@@ -12,10 +12,10 @@ jobs:
       uses: aquiladev/ipfs-action@master
       with:
         path: ./site
-        service: pinata
-        pinName: byjp.fyi
-        pinataKey: ${{ secrets.PINATA_KEY }}
-        pinataSecret: ${{ secrets.PINATA_SECRET }}
+        service: filebase
+        filebaseBucket: byjp-fyi
+        filebaseKey: ${{ secrets.FILEBASE_KEY }}
+        filebaseSecret: ${{ secrets.FILEBASE_SECRET }}
     - name: Update DNS record
       uses: XueMoMo/actions-coudflare-dns@v1.0.1
       with:
