@@ -13,7 +13,8 @@ jobs:
       with:
         path: ./site
         service: filebase
-        filebaseBucket: byjp-fyi
+        pinName: byjp.fyi
+        filebaseBucket: microsites
         filebaseKey: ${{ secrets.FILEBASE_KEY }}
         filebaseSecret: ${{ secrets.FILEBASE_SECRET }}
     - name: Update DNS record
