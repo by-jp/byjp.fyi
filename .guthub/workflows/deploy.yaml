@@ -1,0 +1,16 @@
+name: Ship to IPFS
+on: [push]
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v3
+    - name: Ship to IPFS
+      uses: aquiladev/ipfs-action@master
+      with:
+        path: ./site
+        service: pinata
+        pinataKey: ${{ secrets.PINATA_KEY }}
+        pinataSecret: ${{ secrets.PINATA_SECRET }}
