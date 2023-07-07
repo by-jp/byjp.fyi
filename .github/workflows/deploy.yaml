@@ -23,4 +23,4 @@ jobs:
         name: "byjp.fyi"
         cid: ${{ steps.Publish.outputs.cid }}
         token: ${{ secrets.CLOUDFLARE_TOKEN }}
-        zone: ${{ secrets.CLOUDFLARE_ZONE }}
+        zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
