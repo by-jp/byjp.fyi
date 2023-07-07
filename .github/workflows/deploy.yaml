@@ -19,7 +19,7 @@ jobs:
     - name: Update DNS record
       uses: XueMoMo/actions-coudflare-dns@v1.0.1
       with:
-        name: byjp.fyi
+        name: "byjp.fyi"
         cid: ${{ steps.Publish.outputs.cid }}
         token: ${{ secrets.CLOUDFLARE_TOKEN }}
         zone: ${{ secrets.CLOUDFLARE_ZONE }}
