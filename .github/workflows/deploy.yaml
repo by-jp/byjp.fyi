@@ -11,7 +11,7 @@ jobs:
       id: Publish
       uses: aquiladev/ipfs-action@master
       with:
-        path: ./site
+        path: ./public
         service: filebase
         pinName: ${{ github.event.repository.name }}
         filebaseBucket: microsites
