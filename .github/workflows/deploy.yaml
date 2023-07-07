@@ -12,5 +12,6 @@ jobs:
       with:
         path: ./site
         service: pinata
+        pinName: byjp.fyi
         pinataKey: ${{ secrets.PINATA_KEY }}
         pinataSecret: ${{ secrets.PINATA_SECRET }}
