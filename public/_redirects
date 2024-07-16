@@ -6,10 +6,10 @@
 /example http://example.com 302
 
 # From blog
-/insta https://www.byjp.me/posts/archiving-instagram-posts/ 301
-/miriscient https://www.byjp.me/posts/miriscience/ 301
 /indieweb-ipfs https://www.byjp.me/posts/ipfs-indieweb-offer/ 301
 /barbie https://www.byjp.me/posts/reviews/movies/barbie/ 301
+/insta https://www.byjp.me/posts/archiving-instagram-posts/ 301
+/miriscient https://www.byjp.me/posts/miriscience/ 301
 
 # Personal generic
 /me https://www.byjp.me 302
