@@ -1,11 +1,18 @@
-/miriscient https://www.byjp.me/posts/miriscience/ 302
-/indieweb-ipfs https://www.byjp.me/posts/ipfs-indieweb-offer/ 302
-/barbie https://www.byjp.me/posts/reviews/movies/barbie/ 302
+# Inserts from val.town will go above this line
+
+# Related to the shortener
+/new https://www.val.town/v/byjp.addShortlink 302
 /about https://www.byjp.me/posts/link-shortener/ 302
 /example http://example.com 302
-/new https://www.val.town/v/byjp.addShortlink 302
-/insta https://www.byjp.me/instagram-posts/ 302
+
+# From blog
+/insta https://www.byjp.me/posts/archiving-instagram-posts/ 301
+/miriscient https://www.byjp.me/posts/miriscience/ 301
+/indieweb-ipfs https://www.byjp.me/posts/ipfs-indieweb-offer/ 301
+/barbie https://www.byjp.me/posts/reviews/movies/barbie/ 301
+
+# Personal generic
 /me https://www.byjp.me 302
 
-# Keep the ones below here!
+# Always keep the ones below here!
 /* /not-found.html 404
