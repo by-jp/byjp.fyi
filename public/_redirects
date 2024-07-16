@@ -6,6 +6,7 @@
 /example http://example.com 302
 
 # From blog
+/claps https://www.byjp.me/posts/easy-appreciation/ 301
 /indieweb-ipfs https://www.byjp.me/posts/ipfs-indieweb-offer/ 301
 /barbie https://www.byjp.me/posts/reviews/movies/barbie/ 301
 /insta https://www.byjp.me/posts/archiving-instagram-posts/ 301
